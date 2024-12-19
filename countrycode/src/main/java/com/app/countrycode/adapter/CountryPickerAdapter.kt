@@ -1,12 +1,8 @@
-package com.app.countrycodeselect.adapter
+package com.app.countrycode.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.app.countrycodeselect.databinding.ListItemChooseCountryBinding
-import com.app.countrycodeselect.utils.CountryListModel
-import com.app.countrycodeselect.utils.CountryListUtils
-import com.app.countrycodeselect.utils.CountryListUtils.localizedCountryName
 import java.util.Locale
 
 class CountryPickerAdapter(

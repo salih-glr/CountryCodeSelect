@@ -1,4 +1,4 @@
-package com.app.countrycodeselect
+package com.app.countrycode
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,11 +6,10 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.app.countrycodeselect.adapter.CountryPickerAdapter
-import com.app.countrycodeselect.databinding.ActivityCountryCodeBinding
-import com.app.countrycodeselect.utils.CountryListUtils
-import com.google.gson.Gson
 import androidx.core.widget.addTextChangedListener
+import com.app.countrycode.adapter.CountryPickerAdapter
+import com.app.countrycode.databinding.ActivityCountryCodeBinding
+import com.app.countrycode.utils.CountryListUtils
 
 class CountryCodeActivity : AppCompatActivity() {
     private lateinit var binding: ActivityCountryCodeBinding

@@ -1,8 +1,7 @@
-package com.app.countrycodeselect.utils
+package com.app.countrycode.utils
 
 import android.content.Context
 import android.widget.ImageView
-import com.app.countrycodeselect.R
 import com.bumptech.glide.Glide
 import com.google.gson.Gson
 import java.io.BufferedReader

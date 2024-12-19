@@ -1,4 +1,4 @@
-package com.app.countrycodeselect.utils
+package com.app.countrycode.utils
 
 import com.google.gson.annotations.SerializedName
 

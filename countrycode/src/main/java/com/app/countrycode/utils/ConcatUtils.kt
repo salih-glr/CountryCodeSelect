@@ -1,4 +1,4 @@
-package com.app.countrycodeselect.utils
+package com.app.countrycode.utils
 
 import android.content.Context
 import android.content.Intent
