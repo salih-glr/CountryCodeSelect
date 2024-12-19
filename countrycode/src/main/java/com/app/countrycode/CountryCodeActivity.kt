@@ -10,6 +10,7 @@ import androidx.core.widget.addTextChangedListener
 import com.app.countrycode.adapter.CountryPickerAdapter
 import com.app.countrycode.databinding.ActivityCountryCodeBinding
 import com.app.countrycode.utils.CountryListUtils
+import com.google.gson.Gson
 
 class CountryCodeActivity : AppCompatActivity() {
     private lateinit var binding: ActivityCountryCodeBinding
