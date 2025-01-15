@@ -13,7 +13,7 @@ android {
         minSdk 26
         targetSdk 35
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -39,14 +39,13 @@ android {
 }
 
 dependencies {
-
-    implementation libs.phone.picker
-
+    implementation libs.countrycodeselect
     implementation libs.androidx.core.ktx
     implementation libs.androidx.appcompat
     implementation libs.material
     implementation libs.androidx.activity
     implementation libs.androidx.constraintlayout
+    implementation project(':countrycode')
     testImplementation libs.junit
     androidTestImplementation libs.androidx.junit
     androidTestImplementation libs.androidx.espresso.core
